@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+.body {
+    clear: both;
+    height: 350px;
+    text-align: left;
+    font-size: 20px;
+    margin: 30px auto;
+    color: #5D5D5D
+}
+
+.login {
+    text-align: center;
+    margin: 40 auto 0;
+}
+
+.login h1 {
+    font-size: 35px;
+    margin: 20px auto;
+}
+
+.loginForm {
+    width: 30%;
+    height: 45px;
+    margin: 10px auto;
+}
+
+.login .button {
+    width: 30%;
+    height: 45px;
+    margin: 10px auto;
+    background-color: #29D9C2;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.login hr {
+    width: 30%;
+    margin: 20px auto 10px;
+}
+
+.loginPageNavi {
+    width: 40%;
+    text-align: center;
+}
+
+.loginPageNavi a {
+    color: #5D5D5D;
+    font-size: 14px;
+}
+
+.loginPageNavi span {
+    margin: 0 30px;
+}
+
+.loginPageNavi .haha{
+    display: inline-block;
+}

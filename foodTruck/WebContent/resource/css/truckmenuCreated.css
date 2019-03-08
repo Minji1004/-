@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+.truck {
+    width: 40%;
+    margin: 0 auto;
+    min-height: 700px;
+}
+
+.truck h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.truck hr {
+    border: 1px solid #5D5D5D;
+    margin: 10px auto 15px;   
+}
+
+.truck table{
+    border: 1px solid  #5D5D5D;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.truck td, .truck th{
+    border: 1px solid  #5D5D5D;
+    margin: 5px auto 0;      
+}
+
+ 
+.truck table thead{
+font-size: 17px;
+text-align: center;
+font-weight: bold;
+background: #EAEAEA;
+height: 30px;
+line-height: 30px;
+}
+
+.truck th:first-child{
+    width: 20%;
+}
+
+.truck th:nth-child(2){
+    width: 10%;
+}
+.truck th:nth-child(3){
+    width: 37%;
+}
+.truck th:nth-child(4){
+    width: 10%;
+}
+.truck th:last-child{
+    width: 13%;
+}
+
+.boxTF {    
+    border:1px solid #999999;
+    border-radius:4px;
+    background-color:#ffffff;
+    width: 90%;
+    margin: 0 auto;
+    height: 25px;
+    margin: 3px;
+}
+
+.rows{
+	margin: 3px;
+	vertical-align: middle;
+}
+
+
+.img{
+	position: relative;
+	width: 125px;
+	height: 125px;
+	z-index: 1;
+	top: -125px;	
+}
+
+#photo{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	z-index: 2;
+	opacity:0;
+	cursor: pointer;
+}
+
+.btn{
+	width: 90%;
+	height: 25px;
+}
+
+.btnUpdate{
+	width: 12%;
+	height: 35px;
+	font-size: 15px;
+	margin: 0 5px 20px 0;
+	float: right;
+}
+
+.imgUpload{
+	height: 130px;
+}

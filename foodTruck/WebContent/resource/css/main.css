@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+.body {
+    width: 60%;
+    text-align: center;    
+}
+
+.body div {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border: 1px solid grey;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.body div:nth-child(1) {
+	margin-top: 20px;
+    background-image: url(../images/food1.jpg);
+    background-size: cover;
+}
+
+.body div:nth-child(2) {
+    background-image: url(../images/food2.jpg);
+    background-size: cover;
+}
+
+.body div:nth-child(3) {
+    background-image: url(../images/food3.jpg);
+    background-size: cover;
+}
+
+.body div:nth-child(4) {
+    background-image: url(../images/food4.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.body div:nth-child(5) {
+    background-image: url(../images/food5.jpg);
+    background-size: cover;
+}
+
+.body div:last-child {
+    background-image: url(../images/food6.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.body div:hover{
+    cursor: pointer;
+}
+

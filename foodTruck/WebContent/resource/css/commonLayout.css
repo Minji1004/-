@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.container {
+    width: 100%;
+    font-family: "Malgun Gothic", "맑은 고딕", NanumGothic, 나눔고딕, 돋움, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0 auto;  
+    background-color: #FAFAFA;    
+}
+
+/* Header */
+a{
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.header a {    
+    color: white;    
+}
+
+.header {
+    width: 100%;
+    align-content: center;
+    background: #29D9C2;
+}
+
+.header-top {
+    width: 60%;
+    height: 70px;
+    text-align: left;
+}
+
+.title {
+    padding-top: 4px;
+    font-size: 2.5em;
+    float: left;
+    line-height: 70px;   
+}
+
+ul {
+    cursor: pointer;    
+    text-decoration: none;
+    line-height: 150%;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+
+.loginNavi {
+    padding-top: 10px;
+    font-size: 1.2em;
+    float: right;
+}
+
+.loginNavi span{
+    margin: 0 20px;
+    color: white;
+}
+
+
+/* footer */
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.links {
+    color: white;
+    background: #29D9C2;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.links ul li{
+    color: white;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.links ul li a {
+    color: white;
+}
+
+.links ul li span {
+    color: white;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.links .haha {
+    display: inline-block;
+}
+
+.copyright {
+    color: white;
+    background: #29D9C2;
+    padding: 10px 150px;
+}
